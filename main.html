@@ -1,36 +1,62 @@
 <form method="post">
-	<label for="name">Name*</label>
-	<input type="text" id="name" name="name" required>
-	<br>
-	<label for="email">Email*</label>
-	<input type="email" id="email" name="email" required>
-	<br>
-	<label for="gender">Gender*</label>
-	<input type="radio" id="male" name="gender" value="male" required>
-	<label for="male">Male</label>
-	<input type="radio" id="female" name="gender" value="female" required>
-	<label for="female">Female</label>
-	<input type="radio" id="other" name="gender" value="other" required>
-	<label for="other">Other</label>
-	
-	<label for="laptop">Laptop Brands</label>
-	<select id="laptop" name="laptop">
-		<option value="apple">Apple</option>
-		<option value="asus">Asus</option>
-		<option value="hp">HP</option>
-	</select>
-	
-	<label for="age">Age*</label>
-	<input type="number" id="age" name="age" required>
-	
-	<label for="dob">DOB*</label>
-	<input type="date" id="dob" name="dob" required>
-	<br>
-	<label for="password">Password*</label>
-	<input type="password" id="password" name="password" required>
-	<br>
-	<label for="portfolio">Portfolio URL</label>
-	<input type="url" id="portfolio" name="portfolio">
-	<br>
-	<input type="submit" value="Submit">
+  <div>
+    <span>Name*</span>
+    <input type="text" id="name" name="name" required>
+  </div>
+  
+  <div>
+    <span>Email*</span>
+    <input type="email" id="email" name="email" required>
+  </div>
+  
+  <div>
+    <span>Gender*</span>
+    <div>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <span>Male</span>
+    </div>
+    
+    <div>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <span>Female</span>
+    </div>
+    
+    <div>
+      <input type="radio" id="other" name="gender" value="other" required>
+      <span>Other</span>
+    </div>
+  </div>
+  
+  <div>
+    <span>Laptop Brands</span>
+    <select id="laptop" name="laptop">
+      <option value="apple">Apple</option>
+      <option value="asus">Asus</option>
+      <option value="hp">HP</option>
+    </select>
+  </div>
+  
+  <div>
+    <span>Age*</span>
+    <input type="number" id="age" name="age" required>
+  </div>
+  
+  <div>
+    <span>DOB*</span>
+    <input type="date" id="dob" name="dob" required>
+  </div>
+  
+  <div>
+    <span>Password*</span>
+    <input type="password" id="password" name="password" required>
+  </div>
+  
+  <div>
+    <span>Portfolio URL</span>
+    <input type="url" id="portfolio" name="portfolio">
+  </div>
+  
+  <div>
+    <input type="submit" value="Submit">
+  </div>
 </form>
